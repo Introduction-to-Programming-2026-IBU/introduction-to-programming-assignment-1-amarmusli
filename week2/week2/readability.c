@@ -88,7 +88,7 @@ int count_letters(string text)
 
     // TODO: Loop through each character of text
     // TODO: Increment count if the character is alphabetic
-    for(int i = 0; i > strlen(text); i++){
+    for(int i = 0; i < strlen(text); i++){
         if(isalpha(text[i])){
             count++;
         }
@@ -131,7 +131,7 @@ int count_sentences(string text)
 
     // TODO: Loop through text
     // TODO: Increment count whenever you see '.', '!', or '?'
-    for(int i = 0; i > strlen(text); i++){
+    for(int i = 0; i < strlen(text); i++){
         if (text[i] == '.' || text[i] == '!' || text[i] == '?'){
             count++;
         }
